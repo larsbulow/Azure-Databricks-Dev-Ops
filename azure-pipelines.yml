@@ -29,10 +29,10 @@ parameters:
 - name: LOCATION
   displayName: Azure Region
   type: string
-  default: 'EastUS2'
+  default: 'Westeurope'
   values:
-  - EastUS
-  - EastUS2
+  - Westeurope
+  - Northeurope
   - Add-others-here
 
 # This is the name of your Azure Databricks resource
@@ -51,14 +51,14 @@ parameters:
 - name: SUBSCRIPTION_ID
   displayName: Azure Subscription Id
   type: string
-  default: '00000000-0000-0000-0000-000000000000'
+  default: '1215b08a-359d-49f9-9954-af2c32cf228f'
 
 # NOTE: You could make this a variable and then change the name to append the environment parameter above.  You would need to create a corrisponding service connection
 # e.g. If you connection is named "MyConnection", you would have MyConnection-Dev (for dev subscription), MyConnection-QA (etc...)
 - name: RESOURCE_MANAGER_CONNECTION
   displayName: Azure Resource Connection Name
   type: string
-  default: 'Microsoft Azure Adam Paternostro(00000000-0000-0000-0000-000000000000)'
+  default: '1215b08a-359d-49f9-9954-af2c32cf228f'
 
 # Inialize the system
 # Note: We only want to run the KeyVault ARM template once.  If you keep re-running, then you will OVERWRITE your values
