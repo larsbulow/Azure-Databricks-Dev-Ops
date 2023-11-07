@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\ARM-Templates",
+    "\\clusters",
+    "\\deployment-scripts",
+    "\\init-scripts",
+    "\\jobs",
+    "\\notebooks"
   ],
+  "SelectedNode": "\\deployment-scripts\\deploy-clusters.sh",
   "PreviewInSolutionExplorer": false
 }
