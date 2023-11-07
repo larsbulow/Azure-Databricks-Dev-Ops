@@ -1,14 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\.github",
-    "\\.github\\workflows",
-    "\\ARM-Templates",
-    "\\clusters",
-    "\\deployment-scripts",
-    "\\init-scripts",
-    "\\jobs",
-    "\\notebooks"
+    ""
   ],
+  "SelectedNode": "\\C:\\Users\\larsb\\Source\\Repos\\larsbulow\\Azure-Databricks-Dev-Ops",
   "PreviewInSolutionExplorer": false
 }
