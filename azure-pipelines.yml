@@ -29,10 +29,10 @@ parameters:
 - name: LOCATION
   displayName: Azure Region
   type: string
-  default: 'Westeurope'
+  default: 'West Europe'
   values:
-  - Westeurope
-  - Northeurope
+  - West Europe
+  - North Europe
   - Add-others-here
 
 # This is the name of your Azure Databricks resource
